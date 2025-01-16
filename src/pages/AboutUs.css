@@ -1,0 +1,109 @@
+/* AboutUs.css */
+
+/* Container for the about us page */
+.about-us-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Header of the About Us section */
+  .about-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Mission and Vision sections */
+  .about-mission, .about-vision {
+    margin-top: 2rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-subtitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  /* Team Section */
+  .about-team {
+    margin-top: 3rem;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .team-member h4 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-container {
+      width: 90%;
+    }
+  
+    .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-member {
+      margin-bottom: 2rem;
+    }
+  
+    .team-member-image {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .about-title {
+      font-size: 2.5rem;
+    }
+  
+    .about-subtitle {
+      font-size: 1.6rem;
+    }
+  }
+  

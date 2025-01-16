@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://zubbio-preyantechnosys.myshopify.com/cdn/shop/products/product07_967a5790-b8b3-4ce1-aabc-c4f600a0c973.jpg?v=1673953173&width=713",
+      "category": "office",
+      "brand": "Luxury Office",
+      "title": "Ergo Office Chair",
+      "short_description": "An ergonomic office chair designed for all-day comfort.",
+      "price": "199.00",
+      "description": "Perfect for your home office, this chair provides comfort and support with adjustable features."
+    },
+    {
+      "id": 2,
+      "img": "https://zubbio-preyantechnosys.myshopify.com/cdn/shop/files/product01_b8210cf3-324a-45e0-bd08-218edb28999b.jpg?v=1692599988&width=713",
+      "category": "new-arrival",
+      "brand": "Tech Comfort",
+      "title": "Modern Dining Chair",
+      "short_description": "Sleek dining chair with a minimalist design.",
+      "price": "220.00",
+      "description": "This contemporary dining chair offers both comfort and style, ideal for modern homes."
+    },
+    {
+      "id": 3,
+      "img": "https://zubbio-preyantechnosys.myshopify.com/cdn/shop/files/01_6cb52396-2054-46e8-b279-4ad0024afa0c.jpg?v=1693027175&width=360",
+      "category": "best-seller",
+      "brand": "ErgoStyle",
+      "title": "Ergonomic Task Chair",
+      "short_description": "Stylish and ergonomic task chair.",
+      "price": "349.00",
+      "description": "Perfect for long working hours, this chair supports your posture while providing full back comfort."
+    },
+    {
+      "id": 4,
+      "img": "https://zubbio-preyantechnosys.myshopify.com/cdn/shop/files/product06_32166f33-3413-494d-a354-f9a29b08f770.jpg?v=1693030340&width=360",
+      "category": "vintage",
+      "brand": "Timeless Design",
+      "title": "Classic Wooden Armchair",
+      "short_description": "A vintage armchair with a refined wooden frame.",
+      "price": "899.00",
+      "description": "Handcrafted with precision, this chair blends classic and contemporary design."
+    },
+    {
+      "id": 5,
+      "img": "/images/miniture/chair/5.jpeg",
+      "category": "contemporary",
+      "brand": "Urban Living",
+      "title": "Comfy Lounge Chair",
+      "short_description": "Perfect lounge chair for living rooms and bedrooms.",
+      "price": "450.00",
+      "description": "The cozy lounge chair combines comfort and modern aesthetics to enhance any living space."
+    },
+    {
+      "id": 6,
+      "img": "/images/miniture/chair/6.jpeg",
+      "category": "affordable",
+      "brand": "Value Seating",
+      "title": "Affordable Desk Chair",
+      "short_description": "A budget-friendly chair for your office.",
+      "price": "79.00",
+      "description": "This affordable office chair is designed for comfort and ease, perfect for long working sessions."
+    },
+    {
+      "id": 7,
+      "img": "/images/miniture/chair/7.jpeg",
+      "category": "luxury",
+      "brand": "Elite Seating",
+      "title": "High-End Executive Chair",
+      "short_description": "Luxury chair for professionals who demand the best.",
+      "price": "1899.00",
+      "description": "This executive chair features plush seating and premium materials for ultimate comfort and style."
+    },
+    {
+      "id": 8,
+      "img": "/images/miniture/chair/8.jpeg",
+      "category": "budget-friendly",
+      "brand": "Best Buy",
+      "title": "Compact Office Chair Set",
+      "short_description": "Perfect set of chairs for smaller office spaces.",
+      "price": "129.00",
+      "description": "This set of two compact chairs is perfect for small office spaces, providing comfortable seating at an affordable price."
+    },
+    {
+      "id": 9,
+      "img": "/images/miniture/chair/9.jpeg",
+      "category": "modern",
+      "brand": "Urban Chic",
+      "title": "Stylish Lounge Chair",
+      "short_description": "A chic lounge chair with modern design.",
+      "price": "650.00",
+      "description": "Sleek and modern, this lounge chair is the perfect addition to your living room or office space."
+    },
+    {
+      "id": 10,
+      "img": "/images/miniture/chair/10.jpeg",
+      "category": "premium",
+      "brand": "Luxury Living",
+      "title": "Designer Armchair",
+      "short_description": "Premium armchair with elegant design.",
+      "price": "1200.00",
+      "description": "A high-end armchair crafted with luxurious materials to provide both comfort and style."
+    },
+    {
+      "id": 11,
+      "img": "/images/miniture/chair/11.jpeg",
+      "category": "bestseller",
+      "brand": "Best Buy",
+      "title": "Comfortable Desk Chair",
+      "short_description": "Great value office chair with adjustable settings.",
+      "price": "179.00",
+      "description": "A comfortable, adjustable desk chair designed to improve your workspace experience."
+    },
+    {
+      "id": 12,
+      "img": "/images/miniture/chair/12.jpeg",
+      "category": "vintage",
+      "brand": "Classic Comfort",
+      "title": "Vintage Recliner Chair",
+      "short_description": "Classic recliner with a vintage feel.",
+      "price": "950.00",
+      "description": "A beautiful vintage recliner that provides comfort and relaxation after a long day."
+    },
+    {
+      "id": 13,
+      "img": "/images/miniture/chair/13.jpeg",
+      "category": "affordable",
+      "brand": "BudgetComfort",
+      "title": "Basic Desk Chair",
+      "short_description": "An affordable desk chair that suits any home office.",
+      "price": "59.00",
+      "description": "Simple and cost-effective, this desk chair is ideal for home office use or study rooms."
+    },
+    {
+      "id": 14,
+      "img": "/images/miniture/chair/14.jpeg",
+      "category": "premium",
+      "brand": "Elite Seating",
+      "title": "Premium Executive Chair",
+      "short_description": "Ultimate comfort for the most demanding executives.",
+      "price": "1599.00",
+      "description": "Crafted with high-quality leather and designed for long hours, this executive chair offers superior comfort."
+    }
+  ]
+}

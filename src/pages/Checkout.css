@@ -1,0 +1,93 @@
+/* Checkout.css */
+
+/* General Layout */
+.checkout-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.checkout-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.checkout-container form {
+  margin-top: 1.5rem;
+}
+
+.checkout-container label {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.checkout-container input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #1f2937;
+  transition: border-color 0.3s ease;
+}
+
+.checkout-container input:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+.checkout-container button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-container button:hover {
+  background-color: #2563eb;
+}
+
+.checkout-container .payment-success {
+  text-align: center;
+}
+
+.checkout-container .payment-success h2 {
+  font-size: 2rem;
+  color: #10b981;
+}
+
+.checkout-container .payment-success p {
+  font-size: 1.2rem;
+  color: #374151;
+  margin-top: 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .checkout-container {
+    width: 90%;
+  }
+
+  .checkout-container input {
+    padding: 0.8rem;
+  }
+
+  .checkout-container button {
+    padding: 1rem;
+  }
+}

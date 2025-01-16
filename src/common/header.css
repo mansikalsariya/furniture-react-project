@@ -1,0 +1,87 @@
+/* Super button styles */
+.btn {
+  font-size: 14px; 
+  padding: 10px 20px;
+  background-color: white; 
+  color: black; 
+  border: 1px solid black; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+ margin-left: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #ff6347;
+  color: white; 
+  border-color: #ff6347; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  transform: scale(1.05); 
+}
+.cart-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: relative; 
+  margin-right: 15px; 
+  font-size: 24px; 
+  color: #333; 
+  transition: color 0.3s ease-in-out;
+}
+
+.cart-icon:hover {
+  color: #ff6347;
+}
+
+/* Cart Item Count Badge */
+.items_count {
+  position: absolute;
+  top: -5px; 
+  right: -5px;
+  background-color: #ff6347;
+  color: white;
+  border-radius: 50%; /* Round shape */
+  width: 20px; /* Set width */
+  height: 20px; /* Set height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px; /* Font size for item count */
+  font-weight: 600; /* Make the text bold */
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+/* Badge on Hover */
+.cart-icon:hover .items_count {
+  transform: scale(1.1); /* Slight scale-up on hover */
+}
+
+
+.btn:focus {
+  outline: none; /* Remove outline on focus */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15); /* Focus shadow */
+}
+
+.btn:active {
+  transform: scale(0.98); /* Scale effect on click */
+}
+
+.btn.smaller {
+  font-size: 14px; 
+  padding: 8px 16px; 
+}
+
+.btn i {
+  margin-right: 8px; 
+}
+
+
+   
+    @media (max-width: 768px) {
+      .login-btn, .signup-btn {
+        font-size: 0.875rem;
+        padding: 8px 16px;
+      }
+    }
+    

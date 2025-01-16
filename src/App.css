@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Small login/signup button styles */
+.small-button {
+    font-size: 0.875rem; /* Smaller font size */
+    padding: 0.25rem 0.75rem; /* Smaller padding */
+    color: #3182ce; /* Blue text */
+    border-radius: 0.375rem; /* Rounded corners */
+    transition: all 0.2s ease; /* Smooth transition for hover effects */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
+  }
+  
+  .small-button:hover {
+    background-color: #ebf8ff; /* Light blue background on hover */
+    color: #2b6cb0; /* Darker blue text */
+  }
+  
+  /* Add some margin to each button for spacing */
+  .small-button + .small-button {
+    margin-left: 10px;
+  }
+  
+  /* Adjust icon size inside the button */
+  .small-button svg {
+    margin-right: 5px; /* Add some space between icon and text */
+  }
+  
+  /* Sticky Header */
+  .header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
